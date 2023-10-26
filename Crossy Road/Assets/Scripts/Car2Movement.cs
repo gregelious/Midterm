@@ -6,9 +6,8 @@ public class Car2Movement : MonoBehaviour
 {
     public float xSpeed = 0; //horizontal speed
 
-    private float xBorder = 12f; // left & right border
+    private float xBorder = 10f; // left & right border
 
-    public bool xMove = true; // true = right, false = left
 
     // Start is called before the first frame update
     void Start()
@@ -19,26 +18,12 @@ public class Car2Movement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (transform.position.x >= xBorder) { xMove = false; } // if it goes too far right, goes left
-        if (transform.position.x <= -xBorder) { xMove = true; } // if it goes too far left, goes right
-
-        if (xMove == true)
-        {
-            transform.position = new Vector2(transform.position.x + xSpeed * 2, transform.position.y); // goes right
-        }
-        else // if xMove is false
-        {
-            transform.position = new Vector2(transform.position.x - xSpeed, transform.position.y); // goes left
-        }
+        transform.position = new Vector2(transform.position.x + xSpeed * 2, transform.position.y); // goes right
 
         if (transform.position.x >= xBorder) // if past the right border
         {
-            xMove = false; // goes left
+            transform.position = new Vector2(-xBorder, transform.position.y); // goes left
 
-        }
-        if (transform.position.x <= -xBorder) // if past the left border
-        {
-            xMove = true; // goes right
         }
     }
 }
