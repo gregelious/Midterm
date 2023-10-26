@@ -18,13 +18,13 @@ public class LogMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position = new Vector2(transform.position.x - (xSpeed / 3), transform.position.y); // goes right
+        transform.position = new Vector2(transform.position.x - (xSpeed / 3), transform.position.y); // goes left 
         
 
-        if (transform.position.x <= -xBorder) // if past the right border
+        if (transform.position.x <= -xBorder) // if past the left border
            {
-                transform.position = new Vector2(xBorder, transform.position.y); // goes left
+                transform.position = new Vector2(xBorder, transform.position.y);  // teleport to right of map
 
-           }
+        }
         }
 }
