@@ -8,9 +8,12 @@ public class PlayerMovement : MonoBehaviour
 {
 
     public float speed = 1f; // speed
+    private float logSpeed = 0.0125f;
 
     int playerScore; // tracks score
     public Text scoreTextP1; // shows score
+
+    private bool onLog = false;
 
     // Start is called before the first frame update
     void Start()
@@ -25,6 +28,20 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.W) && transform.position.y == 4.5 && playerScore > 9)
         {
             SceneManager.LoadScene("EndScene"); // go back to start screen
+        }
+
+        if (transform.position.y != -1.5)
+        {
+            onLog = false;
+        }
+
+        if (onLog == true)
+        {
+            transform.position = new Vector2(transform.position.x - (logSpeed / 3), transform.position.y);
+            if (transform.position.x < -9.5 || transform.position.x > 9.5)
+            {
+                SceneManager.LoadScene("SampleScene");
+            }
         }
 
         if (Input.GetKeyDown(KeyCode.W) && transform.position.y < 4.5)
@@ -70,6 +87,10 @@ public class PlayerMovement : MonoBehaviour
         if (other.tag == "Coin")
         {
             playerScore++;
+        }
+        if (other.tag == "Log")
+        {
+            onLog = true;
         }
     }
 }
