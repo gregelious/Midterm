@@ -260,7 +260,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6764073828253099281, guid: 7dec18d2a5551fc4b9dc6e26d5079bae, type: 3}
       propertyPath: m_Name
-      value: Car 3 (1)
+      value: Car C1
       objectReference: {fileID: 0}
     - target: {fileID: 6764073828253099281, guid: 7dec18d2a5551fc4b9dc6e26d5079bae, type: 3}
       propertyPath: m_TagString
@@ -326,7 +326,7 @@ GameObject:
   - component: {fileID: 172604185}
   - component: {fileID: 172604184}
   m_Layer: 0
-  m_Name: Circle (10)
+  m_Name: Coin 6
   m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -440,7 +440,7 @@ GameObject:
   - component: {fileID: 174604399}
   - component: {fileID: 174604398}
   m_Layer: 0
-  m_Name: Circle (9)
+  m_Name: Coin 10
   m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -691,7 +691,7 @@ GameObject:
   - component: {fileID: 210929253}
   - component: {fileID: 210929252}
   m_Layer: 0
-  m_Name: Circle (6)
+  m_Name: Coin 8
   m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -976,7 +976,7 @@ GameObject:
   - component: {fileID: 365522845}
   - component: {fileID: 365522844}
   m_Layer: 0
-  m_Name: Circle (8)
+  m_Name: Coin 9
   m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1347,7 +1347,7 @@ GameObject:
   - component: {fileID: 450559548}
   - component: {fileID: 450559547}
   m_Layer: 0
-  m_Name: Circle (4)
+  m_Name: Coin 4
   m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1749,7 +1749,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3114905418423808302, guid: 1aa5ba6be040ef24cbc5e9df34b03a3c, type: 3}
       propertyPath: m_Name
-      value: Car 2 (2)
+      value: Car B3
       objectReference: {fileID: 0}
     - target: {fileID: 3114905418423808302, guid: 1aa5ba6be040ef24cbc5e9df34b03a3c, type: 3}
       propertyPath: m_TagString
@@ -1859,7 +1859,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 351452706462223577, guid: 38b0d78da9d1b1e40998c018c080d73a, type: 3}
       propertyPath: m_Name
-      value: Car 1 (2)
+      value: Car A4
       objectReference: {fileID: 0}
     - target: {fileID: 351452706462223577, guid: 38b0d78da9d1b1e40998c018c080d73a, type: 3}
       propertyPath: m_TagString
@@ -2559,7 +2559,7 @@ GameObject:
   - component: {fileID: 888059086}
   - component: {fileID: 888059085}
   m_Layer: 0
-  m_Name: Circle (1)
+  m_Name: Coin 2
   m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2909,7 +2909,7 @@ GameObject:
   - component: {fileID: 1144120452}
   - component: {fileID: 1144120451}
   m_Layer: 0
-  m_Name: Circle (5)
+  m_Name: Coin 5
   m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3426,7 +3426,7 @@ GameObject:
   - component: {fileID: 1258669514}
   - component: {fileID: 1258669513}
   m_Layer: 0
-  m_Name: Circle (7)
+  m_Name: Coin 7
   m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3601,7 +3601,7 @@ GameObject:
   - component: {fileID: 1395060104}
   - component: {fileID: 1395060103}
   m_Layer: 0
-  m_Name: Circle (3)
+  m_Name: Coin 3
   m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3815,7 +3815,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3114905418423808302, guid: 1aa5ba6be040ef24cbc5e9df34b03a3c, type: 3}
       propertyPath: m_Name
-      value: Car 2 (1)
+      value: Car B2
       objectReference: {fileID: 0}
     - target: {fileID: 3114905418423808302, guid: 1aa5ba6be040ef24cbc5e9df34b03a3c, type: 3}
       propertyPath: m_TagString
@@ -3925,7 +3925,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 351452706462223577, guid: 38b0d78da9d1b1e40998c018c080d73a, type: 3}
       propertyPath: m_Name
-      value: Car 1 (5)
+      value: Car A3
       objectReference: {fileID: 0}
     - target: {fileID: 351452706462223577, guid: 38b0d78da9d1b1e40998c018c080d73a, type: 3}
       propertyPath: m_TagString
@@ -4290,7 +4290,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 351452706462223577, guid: 38b0d78da9d1b1e40998c018c080d73a, type: 3}
       propertyPath: m_Name
-      value: Car 1 (1)
+      value: Car A2
       objectReference: {fileID: 0}
     - target: {fileID: 351452706462223577, guid: 38b0d78da9d1b1e40998c018c080d73a, type: 3}
       propertyPath: m_TagString
@@ -4400,7 +4400,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 351452706462223577, guid: 38b0d78da9d1b1e40998c018c080d73a, type: 3}
       propertyPath: m_Name
-      value: Car 1 (3)
+      value: Car A5
       objectReference: {fileID: 0}
     - target: {fileID: 351452706462223577, guid: 38b0d78da9d1b1e40998c018c080d73a, type: 3}
       propertyPath: m_TagString
@@ -4742,7 +4742,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 351452706462223577, guid: 38b0d78da9d1b1e40998c018c080d73a, type: 3}
       propertyPath: m_Name
-      value: Car 1 (4)
+      value: Car A6
       objectReference: {fileID: 0}
     - target: {fileID: 351452706462223577, guid: 38b0d78da9d1b1e40998c018c080d73a, type: 3}
       propertyPath: m_TagString
@@ -5272,7 +5272,7 @@ GameObject:
   - component: {fileID: 1938572455}
   - component: {fileID: 1938572454}
   m_Layer: 0
-  m_Name: Circle (2)
+  m_Name: Coin 1
   m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5985,7 +5985,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 351452706462223577, guid: 38b0d78da9d1b1e40998c018c080d73a, type: 3}
       propertyPath: m_Name
-      value: Car 1
+      value: Car A1
       objectReference: {fileID: 0}
     - target: {fileID: 351452706462223577, guid: 38b0d78da9d1b1e40998c018c080d73a, type: 3}
       propertyPath: m_TagString
@@ -6803,7 +6803,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3114905418423808302, guid: 1aa5ba6be040ef24cbc5e9df34b03a3c, type: 3}
       propertyPath: m_Name
-      value: Car 2
+      value: Car B1
       objectReference: {fileID: 0}
     - target: {fileID: 3114905418423808302, guid: 1aa5ba6be040ef24cbc5e9df34b03a3c, type: 3}
       propertyPath: m_TagString
@@ -7214,7 +7214,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5210048222012292085, guid: 82214a67b2a8e9049aa11003aa24191e, type: 3}
       propertyPath: m_Name
-      value: Square
+      value: Road 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 82214a67b2a8e9049aa11003aa24191e, type: 3}
@@ -7564,7 +7564,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6764073828253099281, guid: 7dec18d2a5551fc4b9dc6e26d5079bae, type: 3}
       propertyPath: m_Name
-      value: Car 3
+      value: Car C2
       objectReference: {fileID: 0}
     - target: {fileID: 6764073828253099281, guid: 7dec18d2a5551fc4b9dc6e26d5079bae, type: 3}
       propertyPath: m_TagString
@@ -7706,7 +7706,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7600252761684929591, guid: 974431b136482ad449a87100abfe7a66, type: 3}
       propertyPath: m_Name
-      value: Square (2)
+      value: Road 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 974431b136482ad449a87100abfe7a66, type: 3}
