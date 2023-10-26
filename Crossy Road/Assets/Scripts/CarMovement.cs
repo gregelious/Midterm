@@ -12,20 +12,31 @@ public class CarMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        xSpeed = 0.0125f; // moves to the right
+        if (transform.position.y < 4)
+        {
+            xSpeed = 0.0125f * 250 / 100;
+        }
+        if (transform.position.y < 2)
+        {
+            xSpeed = 0.0125f * 200 / 100;
+        }
+        if (transform.position.y < 0)
+        {
+            xSpeed = 0.0125f * 150 / 100;
+        }
+        if (transform.position.y < -1)
+        {
+            xSpeed = 0.0125f * 125 / 100;
+        }
+        if (transform.position.y < -3)
+        {
+            xSpeed = 0.0125f;
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (transform.position.y < 0)
-        {
-            xSpeed = 0.0125f * 6 / 5;
-        }
-        if (transform.position.y < -1)
-        {
-            xSpeed = 0.0125f;
-        }
 
         transform.position = new Vector2(transform.position.x + xSpeed, transform.position.y); // goes right
 
