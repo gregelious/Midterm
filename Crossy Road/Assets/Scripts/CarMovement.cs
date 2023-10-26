@@ -8,35 +8,30 @@ public class CarMovement : MonoBehaviour
 
     private float xBorder = 10f; // left & right border
 
-    private bool xMove = true;
+    private bool xMove = true; // true = right, false == left
 
     // Start is called before the first frame update
     void Start()
     {
-        if (transform.position.y < 4)
+        if (transform.position.y < 4) // last road
         {
-            xSpeed = 0.0125f * 250 / 100;
-            xMove = true;
+            xSpeed = 0.0125f * 250 / 100; // 2.5 times speed
+            xMove = true; // goes right
         }
-        if (transform.position.y < 2)
+        if (transform.position.y < 2) // 3rd road
         {
-            xSpeed = 0.0125f * 200 / 100;
+            xSpeed = 0.0125f * 200 / 100; // 2 times speed
             xMove = false;
         }
-        if (transform.position.y < 0)
+        if (transform.position.y < 0)// 2nd road
         {
-            xSpeed = 0.0125f * 150 / 100;
-            xMove = true;
+            xSpeed = 0.0125f * 150 / 100; // 1.5 times speed
+            xMove = true;// goes right
         }
-        if (transform.position.y < -1)
+        if (transform.position.y < -3)// 1st road
         {
-            xSpeed = 0.0125f * 125 / 100;
-            xMove = false;
-        }
-        if (transform.position.y < -3)
-        {
-            xSpeed = 0.0125f;
-            xMove = true;
+            xSpeed = 0.0125f; // normal speed
+            xMove = true;// goes right
         }
     }
 
@@ -45,23 +40,23 @@ public class CarMovement : MonoBehaviour
     {
 
 
-        if (xMove == true)
+        if (xMove == true) // if going right
         {
             transform.position = new Vector2(transform.position.x + xSpeed, transform.position.y); // goes right
 
             if (transform.position.x >= xBorder) // if past the right border
             {
-                transform.position = new Vector2(-xBorder, transform.position.y); // goes left
+                transform.position = new Vector2(-xBorder, transform.position.y); // teleport to left of map
 
             }
         }
-        else
+        else // if going left
         {
-            transform.position = new Vector2(transform.position.x - xSpeed, transform.position.y); // goes right
+            transform.position = new Vector2(transform.position.x - xSpeed, transform.position.y); // goes left
 
-            if (transform.position.x <= -xBorder) // if past the right border
+            if (transform.position.x <= -xBorder) // if past the left border
             {
-                transform.position = new Vector2(xBorder, transform.position.y); // goes left
+                transform.position = new Vector2(xBorder, transform.position.y); // teleport to right of map
 
             }
         }
